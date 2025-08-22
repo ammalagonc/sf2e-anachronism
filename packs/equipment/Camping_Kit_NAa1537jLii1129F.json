@@ -5,7 +5,7 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.94,
+      "version": null,
       "previous": null
     },
     "description": {
@@ -24,9 +24,61 @@
       "otherTags": [],
       "value": []
     },
-    "items": {},
+    "items": {
+      "RPT0K": {
+        "uuid": "Compendium.sf2e-anachronism.equipment.Item.XRk3UWHAQ5WVkZGu",
+        "img": "modules/sf2e-anachronism/art/icons/equipment/other/ammo-pouch.webp",
+        "quantity": 1,
+        "name": "Container (Ordinary)",
+        "isContainer": true,
+        "items": {
+          "3J0pY": {
+            "uuid": "Compendium.sf2e-anachronism.equipment.Item.V0LgOSOvkNvs2i0x",
+            "img": "modules/sf2e-anachronism/art/icons/equipment/weapons/knife.webp",
+            "quantity": 1,
+            "name": "Commercial Knife",
+            "isContainer": false,
+            "items": {}
+          },
+          "8f5jN": {
+            "uuid": "Compendium.sf2e-anachronism.equipment.Item.y634FTKpScHuWsug",
+            "img": "icons/environment/settlement/tent.webp",
+            "quantity": 1,
+            "name": "Weatherproof Tent",
+            "isContainer": false,
+            "items": {}
+          },
+          "bxuPB": {
+            "uuid": "Compendium.sf2e-anachronism.equipment.Item.Lc6aDVREtzsG42i4",
+            "img": "modules/sf2e-anachronism/art/icons/abilities/yellow-light-match-on-fire.webp",
+            "quantity": 1,
+            "name": "Fire Igniter",
+            "isContainer": false,
+            "items": {}
+          },
+          "Kk2jZ": {
+            "uuid": "Compendium.pf2e.equipment-srd.Item.L9ZV076913otGtiB",
+            "img": "systems/pf2e/icons/equipment/adventuring-gear/rations.webp",
+            "quantity": 1,
+            "name": "Rations",
+            "isContainer": false,
+            "items": {}
+          },
+          "hrptU": {
+            "uuid": "Compendium.pf2e.equipment-srd.Item.fagzYdmfYyMQ6J77",
+            "img": "icons/containers/ammunition/quiver-simple-brown.webp",
+            "quantity": 4,
+            "name": "Bedroll",
+            "isContainer": false,
+            "items": {}
+          }
+        }
+      }
+    },
     "price": {
-      "value": {},
+      "value": {
+        "sp": 30
+      },
       "per": 1
     }
   },
@@ -37,11 +89,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.4.0"
   },
-  "sort": 0,
+  "sort": 2100000,
   "ownership": {
     "default": 0,
     "HfqCvkteYnTykQsA": 3
