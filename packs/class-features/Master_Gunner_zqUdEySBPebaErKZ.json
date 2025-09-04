@@ -36,15 +36,15 @@
         "predicate": [
           "item:ranged",
           {
-            "gte": [
-              "item:proficiency:rank",
-              2
-            ]
-          },
-          {
             "or": [
               "item:trait:analog",
               "item:trait:tech"
+            ]
+          },
+          {
+            "gte": [
+              "item:proficiency:rank",
+              2
             ]
           }
         ]
@@ -92,9 +92,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.4.3"
   },
   "_key": "!items!zqUdEySBPebaErKZ"
 }
