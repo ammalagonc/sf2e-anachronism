@@ -41,6 +41,7 @@
     },
     "hp": 8,
     "size": "lg",
+    "hands": 4,
     "reach": 5,
     "speed": 25,
     "boosts": {
@@ -106,9 +107,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.5.2"
   },
   "_id": "CURlEp5fEl0WJq9L",
   "sort": 0,

@@ -21,7 +21,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "analog"
+      ],
       "rarity": "common",
       "integrated": null
     },
@@ -72,6 +74,7 @@
       "misidentified": {}
     },
     "acBonus": 2,
+    "grade": "commercial",
     "runes": {
       "reinforcing": 0
     },
@@ -85,9 +88,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.5.2"
   },
   "ownership": {
     "default": 0,

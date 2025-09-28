@@ -22,6 +22,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "analog",
         "hefty-2"
       ],
       "rarity": "common",
@@ -74,6 +75,7 @@
       "misidentified": {}
     },
     "acBonus": 3,
+    "grade": "commercial",
     "runes": {
       "reinforcing": 0
     },
@@ -87,9 +89,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.5.2"
   },
   "ownership": {
     "default": 0,
