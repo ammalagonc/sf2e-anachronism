@@ -26,7 +26,27 @@
       "value": "<p>You have a second solar weapon. When you take this feat or Re-Forge Solar Weapon, choose its traits separately from your first weapon. You can select a different damage type, traits, and weapon group for this second solar weapon. Add the agile and twin traits to the list of weapon traits you can apply to your solar weapons.</p><p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.gABm4VTVRcfbv5sG]{Effect: Solar Weapon (Twin Weapons)}</p>",
       "gm": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:attune",
+              "item:slug:re-forge-solar-weapon"
+            ]
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      }
+    ],
     "slug": "twin-weapons",
     "_migration": {
       "version": 0.94,
@@ -66,9 +86,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "_key": "!items!Mett2INmoUZxE0CR"
 }

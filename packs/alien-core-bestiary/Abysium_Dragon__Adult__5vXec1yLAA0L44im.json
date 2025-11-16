@@ -353,7 +353,7 @@
         "rules": [
           {
             "key": "Aura",
-            "radius": 90,
+            "radius": 0,
             "slug": "frightful-presence",
             "traits": [
               "emotion",

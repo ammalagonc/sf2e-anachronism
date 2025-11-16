@@ -362,7 +362,7 @@
           "value": null
         },
         "category": "defensive",
-        "deathNote": true
+        "deathNote": false
       },
       "effects": [],
       "_id": "L2bjATFhfFPhKBsz",

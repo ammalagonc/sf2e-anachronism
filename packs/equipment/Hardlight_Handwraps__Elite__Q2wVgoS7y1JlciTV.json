@@ -37,7 +37,7 @@
     "quantity": 1,
     "baseItem": null,
     "bulk": {
-      "value": 0
+      "value": 0.1
     },
     "hp": {
       "value": 0,
@@ -74,7 +74,7 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "worngloves"
+      "value": "held-in-one-hand"
     },
     "category": "unarmed",
     "group": "brawling",
@@ -96,8 +96,8 @@
       "value": null
     },
     "runes": {
-      "potency": 2,
-      "striking": 2,
+      "potency": 0,
+      "striking": 0,
       "property": []
     },
     "specific": null,
